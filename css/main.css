@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    background-color: whitesmoke;
+    background-image: url('images/dayBackground.png')
+    
+}
+
+h1 {
+    font-family: 'SFPixelateRegular', serif;
+    font-style: normal;
+    font-weight: normal;
+    background: linear-gradient(125deg, #ECFCFF 0%, #ECFCFF 40%, #B2FCFF calc(40% + 1px), #B2FCFF 60%, #5EDFFF calc(60% + 1px), #5EDFFF 72%, #3E64FF calc(72% + 1px), #3E64FF 100%);
+}
+h2{
+    margin-top: 20px;
+}
+h2 span{
+    padding: auto;
+    font-family: 'Courier', monospace;
+    -webkit-font-smoothing : none;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(160, 27, 193) 0px 0px 0px 6px, rgb(255, 19, 98) 0px 0px 0px 9px, rgb(253, 216, 244) 0px 0px 0px 12px, rgb(239, 220, 241) 0px 0px 0px 15px;
+}
+
+h3{
+    font-family: 'Courier', monospace;
+    -webkit-font-smoothing : none;
+}
+
+td {
+    border: solid 2px black;
+    height: 30px;
+    width: 30px;
+    background-color: silver;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Courier', monospace;
+    -webkit-font-smoothing : none;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: pink;
+    transition: 0.3s;
+
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.restart {
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: 'Courier', monospace;
+    -webkit-font-smoothing : none;
+}
+.level-btn{
+    font-family: 'Courier', monospace;
+    -webkit-font-smoothing : none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.level-btn:hover {
+    cursor: pointer;
+}
+
+.features-containers {
+    font-family: 'Courier', monospace;
+    -webkit-font-smoothing : none;
+    margin-top: 50px
+
+}
+.feature{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: 'Courier', monospace;
+    -webkit-font-smoothing : none;
+}
+
+.features-containers:hover {
+    cursor: pointer;
+}
+.footer{
+    margin-top: 100px;
+
+}
+img.img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(10px); 
+    filter: blur(10px);
+    -webkit-filter: grayscale(80%); 
+    }
+img.circle {
+    display: block;
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.time-counter{
+    font-display: red;
+}
+
+
+

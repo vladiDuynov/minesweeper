@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mine Sweeper</title>
+    <link rel="icon" href="images/mine.png">
+</head>
+
+<body onload="initGame()">
+    <img class="img"src="images/Day.png">
+    <h1>THE MINESWEEPER GAME💣</h1>
+    <div class="level-btn-container">
+        <button class="level-btn" onclick="generateLvl(4,2)">EASY</button>
+        <button class="level-btn" onclick="generateLvl(8,14)">MEDIUM</button>
+        <button class="level-btn" onclick="generateLvl(12,32)">EXPERT</button>
+    </div>
+
+    <div class=></div>
+    <div class="game-conteiner">
+        <h2 class="time-counter"><span>0</span></h2>
+        <h3 class="lives"><span>3</span>💖</h3>
+        <div class="board-container" oncontextmenu="return false">
+        </div>
+        <button class="restart"onclick="initGame()"><span>😃</span></button>
+    </div>
+    <div class="features-containers">
+        <button class="feature"onclick="safeClick()">SAFE CLICKS (<span>3</span>)</button>
+        <button class="feature"onclick="undo()">UNDO</button>
+        <button class="feature"onclick="sevenBoom()">7BOOM</button>
+        <button class="feature"onclick="darkMode()">DARK MODE</button>
+        <button class="feature"onclick="megaHint()">MEGA HINT</button>
+        <button class="feature"onclick="mineExt()">MINE EXTERMINATOR</button>
+    </div>
+    
+    <div class="footer">Made by: Vladi Duynov</div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/mines.js"></script>
+</body>
+
+</html>
